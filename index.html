@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description" content="Portfolio de papa mayoro fall, Developpeur full-stack/ javascript chez xarala" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- script de jquerry -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"> </script>
+
+</head>
+
+<body>
+    <div class="section1">
+
+        <div class="nom">
+            <a href="#profil">Papa Mayoro Fall</a>
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#carriere">Carriere</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#projet">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+
+    </div>
+    <div class="section2">
+        <div class="write">
+            <p>Je m'appelle
+            <h1>Mayoro</h1>
+            </p>
+            <p>
+                je suis<span class="typeWriter" data-text='[" Developpeur web junior"," apprenant chez xarala"]'></span>
+            </p>
+            <div class="mode">
+                Change mode:
+                <span class="change"> sombre</span>
+            </div>
+        </div>
+        <div class="img">
+            <img src="img/coding.gif" alt="photo de profil">
+        </div>
+    </div>
+    <div class="section3">
+        <h1 class="title" id="skills">Skills</h1>
+        <div class="img">
+            <img src="img/pn.png" alt="">
+            <div class="texte">
+
+            </div>
+        </div>
+    </div>
+    <div class="section5">
+        <div class="contact">
+            <h1 class="title" id="contact">Contact</h1>
+            <div class="contact-info">
+                <div class="adresse">
+                    <h1><i class="fa fa-thumbs-o-up"></i> Contactez- <span>moi!</span> </h1>
+                    <a href="mailto:papamayorofall401@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="tel:+221774313076"> <i class="fa fa-phone"></i></a>
+
+                </div>
+                <div class="social-link">
+                    <h1><i class="fa fa-thumbs-o-up"></i> Follow <span>Us!</span> </h1>
+                    <a href="https://www.facebook.com/mayoro.fal.96" target="_blank"><i
+                            class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/papa-mayoro-fall-2b1939230/" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/papamayoro1" target="_blank"><i
+                            class="fa-brands fa-twitter"></i></i></a>
+                    <a href="https://github.com/mayoro401" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://wa.me/c/221774313076" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <div class="localisation">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3059.1795815622204!2d-17.355464685936862!3d14.775696176724773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x48e5476de935d89d!2zMTTCsDQ2JzMyLjUiTiAxN8KwMjEnMTEuOCJX!5e1!3m2!1sfr!2ssn!4v1654092978975!5m2!1sfr!2ssn"
+                        width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p> &copy; mayoro.dev@xarala.co </p>
+        <input type="search" bacground="white" border-radius="50px" width="100px"></input>
+    </footer>
+    <!-- mode sombre et mode clair -->
+
+
+    <script>
+        $(".change").on("click", function () {
+            if ($("body").hasClass("dark")) {
+                $("body").removeClass("dark");
+                $(".change").text("sombre");
+            } else {
+                $("body").addClass("dark");
+                $(".change").text("clair");
+            }
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typelighterjs/typelighter.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
