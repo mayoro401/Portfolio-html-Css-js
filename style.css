@@ -55,12 +55,14 @@ body {
 }
 .sectionc {
   text-align: center;
+  margin-top: 50px;
 }
 .section2 {
   background-color: #393e46;
   border-radius: 0px 0px 200px 0px;
   margin: 0;
   padding: 0;
+
   color: white;
   font-size: 25px;
   line-height: 15px;
@@ -94,24 +96,37 @@ body {
 .typeWriter {
   color: #ff0000;
 }
+.section3 {
+  margin-top: 50px;
+  align-items: center;
+  text-align: center;
+}
 .section3 img {
-  width: 30%;
-  margin-left: 100px;
-  height: auto;
-  position: relative;
   background-color: transparent;
-  display: block;
+  display: inline-block;
+  font-size: 10px;
+  height: 200px;
+}
+.section3 img:hover {
+  background-color: transparent;
+  display: inline-block;
+  font-size: 10px;
+  height: 200px;
+  /* transform: scale(0.5); */
+  background-color: #ff0000;
+  border-radius: 90px 0px 90px 0px;
 }
 .section4 {
+  margin-top: 50px;
   display: flex;
   width: 100%;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 .imgprojet .mySlides {
   text-align: center;
   border-radius: 200px 0px 200px 0px;
   width: 50%;
-  margin-left: 300px;
-  float: initial;
 }
 .description {
   float: right;
@@ -142,7 +157,7 @@ span {
   margin: 1px;
   border-radius: 20px 0px 20px 0px;
   transition: 0.5;
-  transform: 1.3;
+  transform: 1;
 }
 #check {
   display: none;
@@ -236,11 +251,11 @@ h1 {
   width: auto;
   text-align: center;
 }
-.mySlides {
+/* .mySlides {
   width: 100%;
   margin-left: 0%;
   margin-right: 300px;
-}
+} */
 .section5 {
   width: 100%;
   height: auto;
