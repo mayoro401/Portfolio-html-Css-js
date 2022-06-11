@@ -211,6 +211,9 @@ nav a:hover {
   margin: 4px;
   display: none;
 }
+/* .section4 .title {
+  text-align: center;
+} */
 @media all and (max-width: 700px) {
   nav {
     display: block;
@@ -236,20 +239,53 @@ nav a:hover {
   }
 
   .section2 {
+    display: inline;
     width: 100%;
     font-size: 15px;
+  }
+  .section2 .img {
+    text-align: center;
+  }
+  .section2 .write {
+    padding: 1px;
+    text-align: center;
+    margin: 0;
+    width: 100%;
   }
   .section3 {
     width: auto;
     height: auto;
   }
   .section4 {
-    width: 100%;
-    /* overflow: auto; */
+    width: auto;
+    text-align: center;
+    overflow: hidden;
+    display: inline;
+  }
+  .section4 h1 {
+    text-align: center;
+    width: auto;
   }
   .mySlides {
-    width: auto;
-    overflow: hidden;
+    float: left;
+    width: 50%;
+  }
+  .imgprojet {
+    text-align: justify;
+  }
+  .description {
     text-align: center;
+  }
+  .contact-info {
+    display: inline-block;
+    width: 100%;
+  }
+  .social-link,
+  .adresse {
+    text-align: center;
+    margin: 0;
+  }
+  footer {
+    width: 100%;
   }
 }
